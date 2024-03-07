@@ -68,10 +68,17 @@ public class Patient {
     }
 
     public String toString() {
-//        return "Person [name=" + name + ", weight=" + weight + "]";
-        return "exam [num=" + patNum + ", last=" + patLastname + ",first=" + patFirstname + "]";
+        return "Patient{" +
+                "num='" + patNum + '\'' +
+                ", last='" + patLastname + '\'' +
+                ", first='" + patFirstname + '\'' +
+                ", address='" + patAddress + '\'' +
+                ", tel='" + patTel + '\'' +
+                ", insuranceId='" + patInsuranceId + '\'' +
+                ", subscriptionDate=" + patSubscriptionDate +
+                '}';
+    }
 
     }
-}
 
 
